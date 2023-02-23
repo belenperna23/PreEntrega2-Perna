@@ -12,11 +12,20 @@
   font-family: "Lato", sans-serif;
 }
 
-i {
+footer i,
+nav i {
   font-size: 1.5rem;
   color: white;
 }
 
 .intro_section {
   margin-top: 7rem;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
 }
