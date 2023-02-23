@@ -29,3 +29,7 @@ nav i {
 .nav_link {
   text-decoration: none;
 }
+
+form {
+  width: 60%;
+}
