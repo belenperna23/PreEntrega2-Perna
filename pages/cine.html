@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/clapper.png" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- BOOT -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- TIPO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Cine</title>
+  </head>
+  <body class="bod">
+    <!-- NAVBAR -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg shadow navbar-dark fixed-top menu p-3"
+      >
+        <div class="container">
+          <a class="navbar-brand text-white quever" href="../index.html"
+            >¿Qué ver?</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cine.html">Cine</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="series.html">Series</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro_section">
+        <div class="container text-white mb-4"><h2>En cartelera</h2></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/poster_avatar.jpg" alt="" />
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Avatar:El Camino del Agua
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Laborum commodi facilis dolorem, tempore quaerat
+                        sed!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/poster_elmenu.jpg" alt="" />
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      El Menú
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Animi tenetur veritatis libero possimus, aliquam
+                        eos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/poster_gato.jpg" alt="" />
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Gato con Botas: el último deseo
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Aliquid repellendus unde vel nobis deserunt
+                        impedit?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/poster_megan.jpg" alt="" />
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      M3GAN
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Ab maxime in odit corrupti modi expedita?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container text-white mt-3 mb-4">
+          <h2>Para ver en casa</h2>
+        </div>
+        <!-- futuro menú desplegable -->
+        <div class="container mb-4 text-white"><h3>Para maratonear</h3></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/harry_potter.jpg" alt="" />
+              </div>
+              <div><h4 class="text-white-50 text-center">Harry Potter</h4></div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/crepusculo.jpg" alt="" />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Crepúsculo</h4>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid"
+                  src="../img/piratas_del_caribe.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Piratas del Caribe</h4>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid"
+                  src="../img/juegos_del_hambre.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Los juegos del hambre</h4>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/avengers.jpg" alt="" />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">The Avengers</h4>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img class="img-fluid" src="../img/divergente.jpg" alt="" />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Divergente</h4>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid"
+                  src="../img/reapidos_furiosos.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Rápidos y Furiosos</h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid"
+                  src="../img/volver_al_futuro.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Volver al futuro</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="mt-5 mb-5 border-top border-top-3">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md text-center text-md-start mb-2">
+              <a class="pe-3" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="pe-3" href="#"> <i class="bi bi-facebook"></i></a>
+              <a href="@"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+            <div class="col-md text-md-end text-center">
+              <a class="navbar-brand text-white quever" href="../index.html"
+                >¿Qué ver?</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
