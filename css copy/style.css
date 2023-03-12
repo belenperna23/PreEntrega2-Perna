@@ -1,0 +1,35 @@
+.menu {
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.quever {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.bod {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+
+footer i,
+nav i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.intro_section {
+  margin-top: 7rem;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+form {
+  width: 60%;
+}

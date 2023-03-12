@@ -1,10 +1,10 @@
-.menu {
-  background-color: rgba(128, 128, 128, 0.7);
+@media (min-width: 768px) {
+  form {
+    width: 60%;
+  }
 }
-
-.quever {
-  font-size: 4rem;
-  font-weight: 900;
+.intro_section {
+  margin-top: 7rem;
 }
 
 .bod {
@@ -18,8 +18,13 @@ nav i {
   color: white;
 }
 
-.intro_section {
-  margin-top: 7rem;
+.menu {
+  background-color: rgba(128, 128, 128, 0.9);
+}
+
+.quever {
+  font-size: 4rem;
+  font-weight: 900;
 }
 
 .nav__list {
@@ -30,6 +35,8 @@ nav i {
   text-decoration: none;
 }
 
-form {
-  width: 60%;
+.card {
+  max-width: 540px;
 }
+
+/*# sourceMappingURL=style.css.map */
