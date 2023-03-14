@@ -16,21 +16,28 @@
       crossorigin="anonymous"
     />
     <!-- TIPO -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
-
     <!-- ICONOS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-
-    <title>Inicio</title>
+    <!-- SEO ON-PAGE -->
+    <meta
+      name="description"
+      content="Blog de películas y series, encuentra los últimos estrenos y recomendaciones geniales tanto de viejos como nuevos lanzamientos, te ayudamos a elegir el mejor plan para el fin de semana."
+    />
+    <meta
+      name="keywords"
+      content="cine, pelicula, series, que ver, recomendación, estrenos"
+    />
+    <title>¿Que ver? | Blog de cine y series</title>
   </head>
+
+  <!-- BODY -->
   <body class="bod">
     <!-- NAVBAR -->
     <header>
@@ -38,7 +45,7 @@
         class="navbar navbar-expand-lg shadow navbar-dark fixed-top menu p-3"
       >
         <div class="container">
-          <a class="navbar-brand text-white quever" href="index.html"
+          <a class="navbar-brand quever fs-3" href="index.html"
             >¿Qué ver? <i class="bi bi-film ps-1"></i
           ></a>
 
@@ -57,7 +64,7 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav gap-2">
+            <ul class="navbar-nav gap-2 fw-semibold">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
                   >Inicio</a
@@ -80,10 +87,10 @@
         </div>
       </nav>
     </header>
-
+    <!-- CUERPO DE LA PÁGINA -->
     <main>
       <!-- hero -->
-      <section>
+      <section class="d-none d-sm-block">
         <div>
           <img
             class="w-100"
@@ -94,68 +101,171 @@
       </section>
 
       <!-- estrenos -->
-      <section class="text-white ps-3 pe-3">
+      <section class="text-white ps-3 pe-3 mt-5 pt-5 mt-sm-0 pt-sm-0">
         <div class="container">
           <div class="mt-3 mb-4 mb-md-5">
-            <h1>Estrenos del mes</h1>
+            <h1 class="fw-bold">Estrenos del mes</h1>
           </div>
         </div>
         <div class="container">
           <div class="row gap-0.2">
-            <div class="col-md-6 col-lg-3">
-              <div class="mb-4">
-                <img class="w-100 rounded" src="img/ant_man.jpg" alt="" />
-              </div>
-              <div>
-                <h3>Ant-Man and the Wasp: Quantumania</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Suscipit, dolor quae laborum officia iste magnam?
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-              <div class="mb-4">
-                <img class="w-100 rounded" src="img/la_ballena.jpg" alt="" />
-              </div>
-              <div>
-                <h3>La ballena</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                  eum laborum magnam, doloremque a obcaecati?
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 p-3">
               <div class="mb-4">
                 <img
-                  class="w-100 rounded"
+                  class="w-100 rounded escalar"
+                  src="img/ant_man.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed bg-black text-white fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Ant-Man and the Wasp: Quantumania
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Los superhéroes Scott y Cassie Lang, Hope van Dyne y sus
+                        padres, se encuentran accidentalmente atrapados en el
+                        reino cuántico y deben enfrentarse a un nuevo enemigo,
+                        Kang el Conquistador.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 p-3">
+              <div class="mb-4">
+                <img
+                  class="w-100 rounded escalar"
+                  src="img/la_ballena.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed bg-black text-white fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      La Ballena
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Un profesor de inglés, un tipo solitario que sufre
+                        obesidad mórbida, intenta restablecer el contacto con su
+                        hija en busca de perdón.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 p-3">
+              <div class="mb-4">
+                <img
+                  class="w-100 rounded escalar"
                   src="img/eldemonioenelespejo.jpg"
                   alt=""
                 />
               </div>
-              <div>
-                <h3>El demonio en el espejo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt dolores quas similique quisquam natus molestias?
-                </p>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed bg-black text-white fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      El demonio en el espejo
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Sin saber lo que está haciendo, una niña libera a un
+                        demonio que atormentó a su madre y su tía en el pasado
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 p-3">
               <div class="mb-4">
-                <img class="w-100 rounded" src="img/las_momias.jpg" alt="" />
+                <img
+                  class="w-100 rounded escalar"
+                  src="img/las_momias.jpg"
+                  alt=""
+                />
               </div>
-
-              <div>
-                <h3>Las Momias Y El Anillo Perdido</h3>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Laborum excepturi necessitatibus odio modi? Nostrum, sit.
-                </p>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed bg-black text-white fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      Las Momias Y El Anillo Perdido
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Tres momias egipcias recorren el Londres contemporáneo
+                        en busca de un anillo robado por el codicioso arqueólogo
+                        Lord Carnaby.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -176,9 +286,8 @@
 
             <div class="col-md text-md-end text-center">
               <a class="navbar-brand text-white quever pe-2" href="index.html"
-                >¿Qué ver?</a
-              >
-              <i class="bi bi-film"></i>
+                >¿Qué ver? <i class="bi bi-film ps-1"></i
+              ></a>
             </div>
           </div>
         </div>

@@ -1,16 +1,7 @@
 .menu {
-  background-color: rgba(128, 128, 128, 0.9);
+  background-image: linear-gradient(to top, black, $gris);
 }
 
 .quever {
-  font-size: 4rem;
   font-weight: 900;
-}
-
-.nav__list {
-  list-style: none;
-}
-
-.nav_link {
-  text-decoration: none;
 }

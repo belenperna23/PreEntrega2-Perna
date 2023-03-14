@@ -6,3 +6,17 @@
   background-color: black;
   font-family: "Lato", sans-serif;
 }
+
+.escalar {
+  &:hover {
+    transform: scale(1.05, 1.05);
+    border: solid 2px $gris;
+    transition: 1s;
+  }
+}
+
+.acordion-header--hover {
+  &:hover {
+    color: $amarillo;
+  }
+}

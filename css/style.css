@@ -1,6 +1,11 @@
 @media (min-width: 768px) {
   form {
-    width: 60%;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
   }
 }
 .intro_section {
@@ -12,31 +17,38 @@
   font-family: "Lato", sans-serif;
 }
 
-footer i,
-nav i {
+.escalar:hover {
+  transform: scale(1.05, 1.05);
+  border: solid 2px rgba(128, 128, 128, 0.9);
+  transition: 1s;
+}
+
+.acordion-header--hover:hover {
+  color: rgb(100, 100, 23);
+}
+
+footer i {
   font-size: 1.5rem;
   color: white;
 }
 
 .menu {
-  background-color: rgba(128, 128, 128, 0.9);
+  background-image: linear-gradient(to top, black, rgba(128, 128, 128, 0.9));
 }
 
 .quever {
-  font-size: 4rem;
   font-weight: 900;
-}
-
-.nav__list {
-  list-style: none;
-}
-
-.nav_link {
-  text-decoration: none;
 }
 
 .card {
   max-width: 540px;
+}
+
+.series__list {
+  list-style: none;
+}
+.series__link {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
