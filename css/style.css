@@ -20,11 +20,14 @@
 .escalar:hover {
   transform: scale(1.05, 1.05);
   border: solid 2px rgba(128, 128, 128, 0.9);
-  transition: 1s;
+  transition: 0.6s;
 }
 
-.acordion-header--hover:hover {
-  color: rgb(100, 100, 23);
+.categorias_menu {
+  background-image: linear-gradient(to bottom, black, rgba(128, 128, 128, 0.9), black);
+}
+.categorias_menu button {
+  background-color: rgba(231, 210, 19, 0);
 }
 
 footer i {

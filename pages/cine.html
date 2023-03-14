@@ -82,13 +82,15 @@
 
     <main>
       <section class="intro_section ps-3 pe-3">
-        <div class="container text-white mb-4"><h2>En cartelera</h2></div>
+        <div class="container text-white mb-4 mb-md-5">
+          <h1 class="fw-bold">En cartelera</h1>
+        </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="mb-2 d-flex + justify-content-center">
                 <img
-                  class="w-100 rounded"
+                  class="w-100 rounded escalar"
                   src="../img/poster_avatar.jpg"
                   alt=""
                 />
@@ -97,7 +99,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed bg-black text-white fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -128,7 +130,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="mb-2 d-flex + justify-content-center">
                 <img
-                  class="w-100 rounded"
+                  class="w-100 rounded escalar"
                   src="../img/poster_elmenu.jpg"
                   alt=""
                 />
@@ -137,7 +139,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed bg-black text-white fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -168,7 +170,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="mb-2 d-flex + justify-content-center">
                 <img
-                  class="w-100 rounded"
+                  class="w-100 rounded escalar"
                   src="../img/poster_gato.jpg"
                   alt=""
                 />
@@ -177,7 +179,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingThree">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed bg-black text-white fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -208,7 +210,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="mb-2 d-flex + justify-content-center">
                 <img
-                  class="w-100 rounded"
+                  class="w-100 rounded escalar"
                   src="../img/poster_megan.jpg"
                   alt=""
                 />
@@ -217,7 +219,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingFour">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed bg-black text-white fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -247,18 +249,54 @@
         </div>
       </section>
 
-      <section>
-        <div class="container text-white mt-3 mb-4">
-          <h2>Para ver en casa</h2>
+      <!-- CATEGORÍAS -->
+      <section class="mb-4 ps-3 pe-3">
+        <div class="container text-white mt-4 mb-4">
+          <h2 class="fw-bold">Para ver en casa</h2>
         </div>
-        <!-- futuro menú desplegable -->
-        <div class="container mb-4 text-white"><h3>Para maratonear</h3></div>
+        <!-- MENÚ CATEGORÍAS -->
+        <div class="container">
+          <div class="categorias_menu p-3 text-center">
+            <button
+              class="btn btn-dark escalar border border-ligh categorias_menu__link m-1"
+            >
+              <a class="series__link text-white" href="#libros"
+                >Basadas en libros</a
+              >
+            </button>
+
+            <button
+              class="btn btn-dark escalar border border-ligh categorias_menu__link m-1"
+            >
+              <a class="series__link text-white" href="#maratonear"
+                >Para maratonear</a
+              >
+            </button>
+
+            <button
+              class="btn btn-dark escalar border border-ligh categorias_menu__link m-1"
+            >
+              <a class="series__link text-white" href="">Ver en familia</a>
+            </button>
+
+            <button
+              class="btn btn-dark escalar border border-ligh categorias_menu__link m-1"
+            >
+              <a class="series__link text-white" href="">Una noche de terror</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Basadas en libros -->
+      <section class="mb-4 mt-3 ps-3 pe-3" id="libros">
+        <div class="container mb-4 text-white"><h3>Basadas en libros</h3></div>
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-4 mb-4">
               <div class="mb-2">
                 <img
-                  class="img-fluid rounded"
+                  class="img-fluid rounded escalar"
                   src="../img/harry_potter.jpg"
                   alt=""
                 />
@@ -277,7 +315,38 @@
                 <h4 class="text-white-50 text-center">Crepúsculo</h4>
               </div>
             </div>
-
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid rounded"
+                  src="../img/juegos_del_hambre.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Los juegos del hambre</h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="mb-2">
+                <img
+                  class="img-fluid rounded"
+                  src="../img/divergente.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4 class="text-white-50 text-center">Divergente</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Para maratonear -->
+      <section class="mb-4 mt-3 ps-3 pe-3" id="maratonear">
+        <div class="container mb-4 text-white"><h3>Para maratonear</h3></div>
+        <div class="container">
+          <div class="row">
             <div class="col-lg-3 col-md-4 mb-4">
               <div class="mb-2">
                 <img
@@ -295,38 +364,12 @@
               <div class="mb-2">
                 <img
                   class="img-fluid rounded"
-                  src="../img/juegos_del_hambre.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <h4 class="text-white-50 text-center">Los juegos del hambre</h4>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 mb-4">
-              <div class="mb-2">
-                <img
-                  class="img-fluid rounded"
                   src="../img/avengers.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <h4 class="text-white-50 text-center">The Avengers</h4>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 mb-4">
-              <div class="mb-2">
-                <img
-                  class="img-fluid rounded"
-                  src="../img/divergente.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <h4 class="text-white-50 text-center">Divergente</h4>
               </div>
             </div>
 
@@ -371,12 +414,9 @@
             </div>
 
             <div class="col-md text-md-end text-center">
-              <a
-                class="navbar-brand text-white quever pe-2"
-                href="../index.html"
-                >¿Qué ver?</a
-              >
-              <i class="bi bi-film"></i>
+              <a class="navbar-brand text-white quever pe-2" href="index.html"
+                >¿Qué ver? <i class="bi bi-film ps-1"></i
+              ></a>
             </div>
           </div>
         </div>

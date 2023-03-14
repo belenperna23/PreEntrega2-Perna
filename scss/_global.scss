@@ -11,12 +11,13 @@
   &:hover {
     transform: scale(1.05, 1.05);
     border: solid 2px $gris;
-    transition: 1s;
+    transition: 0.6s;
   }
 }
 
-.acordion-header--hover {
-  &:hover {
-    color: $amarillo;
+.categorias_menu {
+  background-image: linear-gradient(to bottom, black, $gris, black);
+  button {
+    background-color: $gris_1;
   }
 }
