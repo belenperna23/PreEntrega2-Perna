@@ -8,3 +8,19 @@
     width: 100%;
   }
 }
+
+@media (min-width: 768px) {
+  section {
+    button {
+      max-width: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    button {
+      width: 100%;
+    }
+  }
+}

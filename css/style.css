@@ -1,13 +1,3 @@
-@media (min-width: 768px) {
-  form {
-    width: 60%;
-  }
-}
-@media (max-width: 768px) {
-  form {
-    width: 100%;
-  }
-}
 .intro_section {
   margin-top: 7rem;
 }
@@ -52,6 +42,27 @@ footer i {
 }
 .series__link {
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  section button {
+    max-width: auto;
+  }
+}
+@media (max-width: 768px) {
+  section button {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
